@@ -14,7 +14,7 @@ public class UserComtroller {
     @Autowired
     public UserRepository user;
 
-    @GetMapping("aa")
+    @GetMapping("user")
     public List<UserEntity> userEntities(){
 
         List<UserEntity> user1 = user.findAll();
