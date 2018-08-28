@@ -17,8 +17,8 @@ public class UserComtroller {
     @GetMapping("user")
     public List<UserEntity> userEntities(){
 
-        List<UserEntity> user1 = user.findAll();
-        return user1;
+        List<UserEntity> users = user.findAll();
+        return users;
 
     }
 
